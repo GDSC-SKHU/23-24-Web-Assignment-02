@@ -1,0 +1,3 @@
+ say() {
+        console.log('say!');
+    }
