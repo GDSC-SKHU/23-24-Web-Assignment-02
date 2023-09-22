@@ -23,10 +23,10 @@ function solution(a, b) {
     function mul(a, b) {
         return a * b;
     }
-    console.log(add);
-    console.log(sub);
-    console.log(div);
-    console.log(mul);
+    console.log(add(a, b));
+    console.log(sub(a, b));
+    console.log(div(a, b));
+    console.log(mul(a, b));
 }
 
 solution(1, 2);
