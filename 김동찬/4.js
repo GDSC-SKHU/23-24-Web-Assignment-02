@@ -18,13 +18,15 @@ class Student extends Person {
 
 function solution() {
     const students = []; 
+    const student = new Student();
 
     for (let i = 0; i < 10; i++) {
-        const student = new Student();
         students.push(student);
-        student.say();
     }
 
+    for (let i = 0; i < students.length; i++) {
+        students[i].say();
+    }
 }
 
 solution();
