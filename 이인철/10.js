@@ -19,8 +19,19 @@ class Person {
         console.log('나이는 ' + this.age + ' 입니다.');
     }
 }
+class InCheol extends Person{
+    constructor(name,age){
+        super(name,age);
+    }
+    say(){
+        super.say();
+    }
+    
+}
 
 function solution() {
+    const incheol=new InCheol("이인철",23);
+    incheol.say();
 }
 
 solution();

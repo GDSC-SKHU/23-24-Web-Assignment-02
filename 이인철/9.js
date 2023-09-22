@@ -7,6 +7,9 @@
  */
 
 function solution() {
+    var a=["Apple","Lime","Raisin","Mango","Banana","Peach","Blue Berry"];
+    remove=a.splice(2,2);
+    console.log(remove);
 }
 
 solution();

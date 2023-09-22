@@ -6,14 +6,19 @@
  */
 
 class Person {
+    constructor(){
+        this.message="say";
+    }
     say() {
-        console.log('say!');
+        console.log(this.message);
     }
 }
 
 
 function solution() {
-
+    const person =new Person();
+    console.log("안녕");
+    person.say();
 }
 
 solution();

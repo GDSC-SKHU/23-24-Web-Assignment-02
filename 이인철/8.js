@@ -11,6 +11,13 @@
  */
 
 function solution() {
+    var a=["Apple","Lime","Raisin","Mango","Banana","Peach","Blue Berry"];
+    a.push("Orange");
+    a.push("Kiwi");
+    a.splice(3,1);
+    a.splice(3,0,"Tomato");
+    console.log(a);
+    console.log(a.length);
 }
 
 solution();
