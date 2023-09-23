@@ -22,15 +22,7 @@
  * *********
  */
 
-function solution(n) {
-    for(let i=0; i<n; i++){
-        for(let j=n-1; j>i; j--){
-            
-        }
-        for(let k=0; k<i; k++){
-            console.log("*")
-        }
-    }    
+function solution(n) {  
 }
-
 solution(3);
+solution(5);
