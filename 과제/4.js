@@ -32,7 +32,7 @@ function solution() {
     const student = new Student;
     arrayStudent.push(student);
   }
-  array.forEach(function(student) {
+  arrayStudent.forEach(function(student) {
     student.say();
   });
 }
