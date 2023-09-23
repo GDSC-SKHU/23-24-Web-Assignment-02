@@ -24,7 +24,21 @@
 
 function solution(n) {
 
+    for (let i=1; i<=n; i++) {
+
+        for (let x=1; x<=n-i; x++) {
+          process.stdout.write(" ");
+        }
+
+        for (let y=1; y<=i*2-1; y++) {
+          process.stdout.write("*");
+        }
+
+        console.log();
+      }
+
 }
 
 solution(3);
 solution(5);
+

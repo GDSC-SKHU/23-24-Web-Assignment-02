@@ -11,6 +11,27 @@
  */
 
 function solution() {
+    var a = ['Apple', 'Lime', 'Raisin', 'Mango', 'Banana', 'Peach', 'Blue Berry'];
+
+    a.push('Orange', 'Kiwi');
+
+    // a.splice(3, 1); 
+
+    // a.splice(3, 0, 'Tomato'); 
+
+    var mangoIndex = a.indexOf('Mango');
+    
+    if (mangoIndex !== -1){
+        a.splice(mangoIndex, 1, "Tomato");
+    }
+
+    console.log(a);
+
+    console.log(a.length);
+
+
+   
+
 }
 
 solution();

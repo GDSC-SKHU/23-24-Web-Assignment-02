@@ -10,7 +10,36 @@
  * 
  */
 
+
+
 function solution(a, b) {
+
+    function add(a,b){
+        return a+b;
+    }
+
+    function sub(a,b){
+        return a-b;
+    }
+
+    function div(a,b){
+        return a/b;
+    }
+
+    function mul(a,b){
+        return a*b;
+    }
+
+    const addition=add(a, b);
+    const subtraction=sub(a, b);
+    const division=div(a, b);
+    const multiple=mul(a, b);
+
+    console.log(addition);
+    console.log(subtraction);
+    console.log(division);
+    console.log(multiple);
+
 }
 
 solution(1, 2);
