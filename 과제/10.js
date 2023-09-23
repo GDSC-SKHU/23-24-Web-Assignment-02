@@ -1,13 +1,12 @@
-// /**
-//  * Person 을 상속받는 본인 이름의 class 를 만들어라
-//  * 
-//  * 본인 이름의 class 가 생성될때 부모에게 본인 이름과, 나이를 super 로 전달하라
-//  * 
-//  * 본인 이름의 class 에는 
-//  * 
-//  * solution 함수에서 본인 이름의 class(객체) 를 생성하고 say 함수를 호출하라
-//  */
-
+/**
+ * Person 을 상속받는 본인 이름의 class 를 만들어라
+ * 
+ * 본인 이름의 class 가 생성될때 부모에게 본인 이름과, 나이를 super 로 전달하라
+ * 
+ * 본인 이름의 class 에는 
+ * 
+ * solution 함수에서 본인 이름의 class(객체) 를 생성하고 say 함수를 호출하라
+ */
 
 class Person {
     constructor(name, age) {
@@ -21,15 +20,7 @@ class Person {
     }
 }
 
-class Yeeun extends Person {
-    constructor() {
-        super("박예은", 22); 
-    }
-}
-
 function solution() {
-    const yeeun = new Yeeun();
-    yeeun.say(); 
 }
 
-solution(); 
+solution();
