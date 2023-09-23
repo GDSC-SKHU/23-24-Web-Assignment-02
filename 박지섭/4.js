@@ -26,11 +26,12 @@ function solution() {
     for (let i = 0; i < 10; i++) {
         let student = new Student();
         StudentArray.push(student);
-    }
-
-    for (let i = 0; i < StudentArray.length; i++) {
         StudentArray[i].say();
     }
+
+    // for (let i = 0; i < StudentArray.length; i++) {
+    //     StudentArray[i].say();
+    // }
 }
 
 solution();
