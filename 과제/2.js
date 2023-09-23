@@ -5,23 +5,17 @@
  * 
  */
 
-class Person {
-
-    say() {
-        console.log("say!");
-    }
-
-    constructor() {
+class Person{
+    say(){
         console.log("안녕");
-
     }
-
 }
 
-function solution() {
+function solution(){
     
-    const person = new Person();
-    person.say(); 
+    let person = new Person;
+    person.say();
+
 }
 
 solution();

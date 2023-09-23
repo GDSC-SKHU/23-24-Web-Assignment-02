@@ -5,20 +5,16 @@
  * 반복문을 통해, 배열에 모든 학생 객체의 say 함수를 호출하라
  */
 
- class Person {
-
-    say() {
-        console.log("say!");
-    }
-
-    constructor() {
+class Person{
+    say(){
         console.log("안녕");
     }
-}
+} 
 
 class Student extends Person{
 
     say(){
+        super.say();
         console.log("I'm Student!");
     }
 
@@ -36,6 +32,7 @@ function solution() {
         studentArray.push(student);
     }
 
+
     for (const student of studentArray) {
         student.say();
     }
@@ -44,3 +41,5 @@ function solution() {
 }
 
 solution();
+
+
