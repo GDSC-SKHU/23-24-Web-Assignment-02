@@ -5,16 +5,14 @@
  * 
  */
 
-class Person{
-    say(){
-        console.log("안녕");
+class Person {
+    say() {
+        console.log('say!');
     }
 }
 
-function solution(){
-    
-    let person = new Person;
-    person.say();
+
+function solution() {
 
 }
 

@@ -7,13 +7,6 @@
  */
 
 function solution() {
-
-    var a = ['Apple', 'Lime', 'Raisin', 'Mango', 'Banana', 'Peach', 'Blue Berry'];
-
-    const removed = a.splice(2, 2);
-
-    console.log(removed);
-
 }
 
 solution();
