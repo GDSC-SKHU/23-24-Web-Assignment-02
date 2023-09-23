@@ -6,6 +6,9 @@
  */
 
 class Person {
+    constructor(){
+        console.log("안녕");
+    }
     say() {
         console.log('say!');
     }
@@ -13,7 +16,9 @@ class Person {
 
 
 function solution() {
-
+    let saram = new Person
+    saram.say()
 }
 
 solution();
+module.exports = Person;

@@ -23,7 +23,10 @@
  */
 
 function solution(n) {
-
+    for (let i = 1; i <= n; i++) {
+        const star = 2 * i - 1;
+        console.log(' '.repeat(n - i) + '*'.repeat(star));
+    }
 }
 
 solution(3);

@@ -11,6 +11,28 @@
  */
 
 function solution(a, b) {
+    function add(x, y) {
+        return x + y;
+    }
+
+    function sub(x, y) {
+        return x - y;
+    }
+
+    function div(x, y) {
+        return x / y;
+    }
+
+    function mul(x, y) {
+        return x * y;
+    }
+
+
+    console.log('덧셈:', add(a, b));
+    console.log('뺄셈:', sub(a, b));
+    console.log('나눗셈:',div(a, b));
+    console.log('곱셈:', mul(a, b));
+
 }
 
 solution(1, 2);

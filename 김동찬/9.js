@@ -7,6 +7,10 @@
  */
 
 function solution() {
+    const a = ["Apple", "Lime", "Raisin", "Mango", "Banana", "Peach", "Blue Berry"];
+    const remove = a.splice(2, 2);
+    
+    console.log("제거:", remove);
 }
 
 solution();

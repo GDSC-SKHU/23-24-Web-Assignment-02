@@ -7,6 +7,9 @@
  */
 
 function solution() {
+    let a = ["Apple", "Lime", "Raisin", "Mango", "Banana", "Peach", "Blue Berry"];
+    let b = a.splice(2,2);
+    console.log(b);
 }
 
 solution();

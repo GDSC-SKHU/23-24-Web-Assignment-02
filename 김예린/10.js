@@ -21,6 +21,13 @@ class Person {
 }
 
 function solution() {
+    class lynn extends Person{
+        constructor(name,age){
+            super(name,age);
+        }
+    }
+    let me = new lynn("김예린", 23);
+    me.say();
 }
 
 solution();

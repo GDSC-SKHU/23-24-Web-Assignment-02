@@ -11,6 +11,13 @@
  */
 
 function solution() {
+    const a = ["Apple", "Lime", "Raisin", "Mango", "Banana", "Peach", "Blue Berry"];
+
+    a.push("Orange", "Kiwi");    
+    a.splice(3, 1, "Tomato");
+
+    console.log(a);
+    console.log("길이:", a.length);
 }
 
 solution();

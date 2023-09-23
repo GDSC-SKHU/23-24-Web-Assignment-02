@@ -7,7 +7,19 @@
  * 그리고 학생의 say 함수를 호출 하라
  */
 
+const Person = require('./2.js');
+class Student extends Person{
+    constructor(){
+        super();
+    }
+    say() {
+        console.log("i'm student");
+    }
+}
 function solution() {
+    let haksang = new Student;
+    haksang.say()
 }
 
 solution();
+module.exports = Student;

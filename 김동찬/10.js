@@ -19,8 +19,15 @@ class Person {
         console.log('나이는 ' + this.age + ' 입니다.');
     }
 }
+class DongChan extends Person {
+    constructor() {
+        super("김동찬", 24);
+    }
+}
 
 function solution() {
+    const dongchan = new DongChan();
+    dongchan.say();
 }
 
 solution();
