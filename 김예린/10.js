@@ -21,7 +21,7 @@ class Person {
 }
 
 function solution() {
-    class lynn{
+    class lynn extends Person{
         constructor(name,age){
             super(name,age);
         }
