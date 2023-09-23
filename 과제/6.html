@@ -1,8 +1,167 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <title>6번 과제 입니다.</title>
     </head>
+
     <body>
+        <h1><strong>산술 연산자</strong></h1>
+        <table border = "1">
+            <th>연산자</th>
+            <th>예</th>
+            <th>설명</th>
+            <tr>
+                <td style="text-align: center;">+</td>
+                <td>c = a + b</td>
+                <td>a 와 b 의 합을 c 에 저장, 덧셈 연산</td>
+            </tr>
+            <tr>
+                <td style="text-align: center;">-</td>
+                <td>c = a - b</td>
+                <td>a 에서 b 를 뺀 차를 c 에 저장, 뺄셈 연산</td>
+            </tr>
+            <tr>
+                <td style="text-align: center;">*</td>
+                <td>c = a * b</td>
+                <td>a 와 b 의 곱을 c 에 저장, 곱셈 연산</td>    
+            </tr>
+            <tr>
+                <td style="text-align: center;">/</td>
+                <td>c = a * b</td>
+                <td>a 를 b 로 나눈 몫을 c 에 저장, 나눗셈 연산</td>
+            </tr>
+            <tr>
+                <td style="text-align: center;">%</td>
+                <td>c = a % b</td>
+                <td>a 를 b 로 나누었을 때 나머지를 c 에 저장</td>
+            </tr>
+        </table>
+
+        <h1><strong>대입 연산자</strong></h1>
+        <table border = "1">
+            <th>연산자</th>
+            <th>예</th>
+            <th>설명</th>
+            <tr>
+                <td style="text-align: center;">=</td>
+                <td>c = a</td>
+                <td>c 에 a 를 대입</td>
+            </tr>
+            <tr>
+                <td style="text-align: center;">+=</td>
+                <td>c += a</td>
+                <td>c 에 a 를 더한 후, 그 결괏값을 c 에 대입</td>
+            </tr>
+            <tr>
+                <td style="text-align: center;">-=</td>
+                <td>c -= a</td>
+                <td>c 에서 a 를 뺀 후, 그 결괏값을 c 에 대입</td>    
+            </tr>
+            <tr>
+                <td style="text-align: center;">*=</td>
+                <td>c *= a</td>
+                <td>c 에 a 를 곱한 후, 그 결괏값을 c 에 대입</td>
+            </tr>
+            <tr>
+                <td style="text-align: center;">/=</td>
+                <td>c /= a</td>
+                <td>c 를 a 로 나눈 후 그 결괏값을 c 에 대입</td>
+            </tr>
+            <tr>
+                <td style="text-align: center;">%=</td>
+                <td>c %= a</td>
+                <td>c 를 a 로 나눈 후 그 나머지를 c 에 대입</td>
+            </tr>
+        </table>
+
+        <h1><strong>비교 연산자</strong></h1>
+        <table border = "1">
+            <th>연산자</th>
+            <th>예</th>
+            <th>설명</th>
+            <tr>
+                <td style="text-align: center;">==</td>
+                <td>c == a</td>
+                <td>c와 a가 같으면 1을 반환</td>
+            </tr>
+            <tr>
+                <td style="text-align: center;">!=</td>
+                <td>c != a</td>
+                <td>c와 a가 같지 않으면 1을 반환</td>
+            </tr>
+            <tr>
+                <td style="text-align: center;">></td>
+                <td>c > a</td>
+                <td>c가 a보다 크면 1을 반환</td>    
+            </tr>
+            <tr>
+                <td style="text-align: center;">>=</td>
+                <td>c >= a</td>
+                <td>c가 a보다 크거나 같으면 1을 반환</td>
+            </tr>
+            <tr>
+                <td style="text-align: center;"><</td>
+                <td>c < a</td>
+                <td>c가 a보다 작으면 1을 반환</td>
+            </tr>
+            <tr>
+                <td style="text-align: center;"><=</td>
+                <td>c <= a</td>
+                <td>c가 a보다 작거나 같으면 1을 반환</td>
+            </tr>
+        </table>
+
+        <h1><strong>논리 연산자</strong></h1>
+        <table border = "1">
+            <th>연산자</th>
+            <th>예</th>
+            <th>설명</th>
+            <tr>
+                <td style="text-align: center;">&&</td>
+                <td>c && a</td>
+                <td>c 와 a의 논리식이 모두 참이면 1을 반환 (AND 연산)</td>
+            </tr>
+            <tr>
+                <td style="text-align: center;">||</td>
+                <td>c || a</td>
+                <td>c 와 a 의 논리식 중 하나라도 참이면 1을 반환 (OR 연산)</td>
+            </tr>
+            <tr>
+                <td style="text-align: center;">!</td>
+                <td>!c</td>
+                <td>c 논리식의 결과가 참이면 0을, 거짓이면 1을 반환 (NOT 연산)</td>    
+            </tr>
+        </table>
+
+        <h1><strong>증감 연산자</strong></h1>
+        <table border = "1">
+            <th >연산자</th>
+            <th>설명</th>
+            <tr>
+                <td style="text-align: center;">&</td>
+                <td>대응되는 비트가 모두 1이면 1을 반환 (비트 AND 연산)</td>
+            </tr>
+            <tr>
+                <td style="text-align: center;">|</td>
+                <td>대응되는 비트 중에서 하나라도 1이면 1을 반환 (비트 OR 연산)</td>
+            </tr>
+            <tr>
+                <td style="text-align: center;">^</td>
+                <td>대응되는 비트가 서로 다르면 1을 반환 (비트 XOR 연산)</td>    
+            </tr>
+            <tr>
+                <td style="text-align: center;">~</td>
+                <td>비트를 1이면 0으로, 0이면 1로 반전 (비트 NOT 연산)</td>
+            </tr>
+            <tr>
+                <td style="text-align: center;"><<</td>
+                <td>지정한 수만큼 비트들을 전부 왼쪽으로 이동(left shift 연산)</td>
+            </tr>
+            <tr>
+                <td style="text-align: center;">>></td>
+                <td>부호를 유지하면서 지정한 수만큼 비트를 전부 오른쪽으로 이동 (right shift 연산)</td>
+            </tr>
+        </table>
     </body>
 </html>
 

@@ -11,6 +11,36 @@
  */
 
 function solution(a, b) {
+    function add(a, b) {
+        return a + b;
+      }
+      
+      function sub(a, b) {
+        return a - b;
+      }
+
+      function div(a, b) {
+        if (b !== 0) {
+          return a / b;
+        } 
+        else {
+          return "0으로 나눌 수 없습니다.";
+        }
+      }
+
+      function mul(a, b) {
+        return a * b;
+      }
+      
+    const resultAdd = add(a, b);
+    const resultSub = sub(a, b);
+    const resultDiv = div(a, b);
+    const resultMul = mul(a, b);
+
+    console.log(resultAdd.toString());
+    console.log(resultSub.toString());
+    console.log(resultDiv.toString());
+    console.log(resultMul.toString());
 }
 
 solution(1, 2);

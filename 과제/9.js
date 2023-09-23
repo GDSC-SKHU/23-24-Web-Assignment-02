@@ -7,6 +7,13 @@
  */
 
 function solution() {
+    let a = ["Apple", "Lime", "Raisin", "Mango",
+    "Banana", "Peach", "Blue Berry"];
+
+    const removedIndex = a.splice(2, 2); // 2번째 인덱스부터 2개의 요소를 제거하고 반환
+
+    console.log(removedIndex);
+
 }
 
 solution();

@@ -23,7 +23,19 @@
  */
 
 function solution(n) {
+  let output = '';
 
+  for (let i = 0; i < n; i++) {
+    for (let a = 0; a < (n - i); a++) {
+      output += ' ';
+    }
+    for (let b = 0; b < (2 * i + 1); b++) {
+      output += '*';
+    }
+    output += '\n';
+  }
+
+  console.log(output);
 }
 
 solution(3);

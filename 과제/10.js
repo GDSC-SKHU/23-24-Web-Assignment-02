@@ -20,7 +20,15 @@ class Person {
     }
 }
 
+class WooYong extends Person{
+    constructor(){
+        super("정우용", 24);
+    }
+}
+
 function solution() {
+    const myName = new WooYong();
+    myName.say();
 }
 
 solution();

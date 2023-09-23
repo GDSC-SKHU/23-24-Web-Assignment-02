@@ -11,6 +11,18 @@
  */
 
 function solution() {
+    let a = ["Apple", "Lime", "Raisin", "Mango",
+    "Banana", "Peach", "Blue Berry"];
+    
+    a.push("Orange","Kiwi");
+
+    const mangoIndex = a.indexOf("Mango"); 
+    // indexOf() 함수는 배열 안의 "Mango"의 첫 번째 등장 인덱스를 반환. 만약 존재하지 않으면 -1을 반환.
+    
+    a[mangoIndex] = "Tomato";
+
+    console.log(a);
+    console.log("a의 길이: " + a.length);
 }
 
 solution();

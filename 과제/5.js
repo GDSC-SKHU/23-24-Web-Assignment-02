@@ -18,6 +18,29 @@
  */
 
 function solution(n) {
+    let grade;
+  
+  switch (true) {
+    case n === 100:
+      grade = 'A+';
+      break;
+    case n >= 90:
+      grade = 'A';
+      break;
+    case n >= 80:
+      grade = 'B';
+      break;
+    case n >= 70:
+      grade = 'C';
+      break;
+    case n >= 60:
+      grade = 'D';
+      break;
+    default:
+      grade = 'F';
+    }
+
+    console.log(grade);
 }
 
 solution(13); // F
