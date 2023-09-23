@@ -7,7 +7,28 @@
  * 그리고 학생의 say 함수를 호출 하라
  */
 
+class Person {
+  constructor(){
+      console.log("안녕");
+  }
+  say() {
+      console.log('say!');
+  }
+}
+
+class Student extends Person{
+  constructor(){
+  super(Person);
+  }
+
+  say(){
+    console.log("I'm Student!");
+  }
+
+}
 function solution() {
+  const student = new Student;
+  student.say();
 }
 
 solution();

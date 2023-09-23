@@ -9,18 +9,27 @@
  */
 
 class Person {
-    constructor(name, age) {
-        this.name = name;
-        this.age = age;
-    }
+constructor(name, age) {
+    this.name = name;
+    this.age = age;
+}
+say() {
+console.log('안녕하세요 제 이름은 ' + this.name + ' 입니다.');
+console.log('나이는 ' + this.age + ' 입니다.');
+}
+}
 
-    say() {
-        console.log('안녕하세요 제 이름은 ' + this.name + ' 입니다.');
-        console.log('나이는 ' + this.age + ' 입니다.');
-    }
+class Minji extends Person{
+    constructor(){
+    super("임민지", 22);
+}
+
+
 }
 
 function solution() {
+const minji = new Minji;
+minji.say();
 }
 
 solution();
