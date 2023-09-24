@@ -14,7 +14,19 @@ class Person {
         console.log(this.message);
     }
 }
+
+class Student extends Person{
+    constructor(){
+        super();
+        this.stumessage="I'm student!";
+    }
+    say(){
+        console.log(this.stumessage);
+    }
+}
 function solution() {
+        const student = new Student();
+        student.say();
 }
 
 solution();

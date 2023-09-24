@@ -9,10 +9,26 @@
  * solution 함수에서는 4개의 함수를 호출하고, return 된 값을 console.log로 출력하라
  * 
  */
+function add(a,b){
+    return a+b;
+}
+function sub(a,b){
+    return a-b;
 
+}
+function div(a,b){
+    return a/b;
+}
+function mul(a,b){
+    return a*b;
+}
 
 
 function solution(a, b) {
+    console.log(add(a,b));
+    console.log(sub(a,b));
+    console.log(div(a,b));
+    console.log(mul(a,b));
 }
 
 solution(1, 2);

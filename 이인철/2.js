@@ -16,6 +16,9 @@ class Person {
 
 
 function solution() {
+    const person =new Person();
+    console.log("안녕");
+    person.say();
 }
 
 solution();
