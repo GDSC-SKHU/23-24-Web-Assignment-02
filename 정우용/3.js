@@ -7,7 +7,17 @@
  * 그리고 학생의 say 함수를 호출 하라
  */
 
+const Person = require('./2');
+
+class Student extends Person{
+    say(){
+        console.log("I'm Student!");
+    }
+}
+
 function solution() {
+    const student = new Student();
+    student.say();
 }
 
 solution();
