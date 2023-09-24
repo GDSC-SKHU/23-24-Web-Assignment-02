@@ -31,11 +31,20 @@ function solution(a, b) {
       function mul(a, b) {
         return a * b;
       }
+<<<<<<< HEAD:과제/정우용/7.js
       
       console.log(add(a,b));
       console.log(sub(a,b));
       console.log(div(a,b));
       console.log(mul(a,b));
   }
+=======
+
+    console.log(add(a,b));
+    console.log(sub(a,b));
+    console.log(div(a,b));
+    console.log(mul(a,b));
+}
+>>>>>>> daf7b15ce3785bbb8cfa71433ee59aa4724f2689:정우용/7.js
 
 solution(1, 2);
