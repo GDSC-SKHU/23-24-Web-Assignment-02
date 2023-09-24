@@ -11,14 +11,6 @@
  */
 
 function solution() {
-    var a = ["Apple", "Lime", "Raisin", "Mango", "Banana", "Peach", "Blue Berry"];
-    a.push("Orange", "Kiwi");
-    var mangoIndex = a.indexOf("Mango");
-    if(mangoIndex !== -1){
-        a[mangoIndex] = "Tomato";
-    }
-    console.log(a);
-    console.log("배열의 길이:", a.length);
 }
 
 solution();
