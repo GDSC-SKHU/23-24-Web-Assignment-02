@@ -32,15 +32,10 @@ function solution(a, b) {
         return a * b;
       }
       
-    const resultAdd = add(a, b);
-    const resultSub = sub(a, b);
-    const resultDiv = div(a, b);
-    const resultMul = mul(a, b);
-
-    console.log(resultAdd.toString());
-    console.log(resultSub.toString());
-    console.log(resultDiv.toString());
-    console.log(resultMul.toString());
-}
+      console.log(add(a,b));
+      console.log(sub(a,b));
+      console.log(div(a,b));
+      console.log(mul(a,b));
+  }
 
 solution(1, 2);
