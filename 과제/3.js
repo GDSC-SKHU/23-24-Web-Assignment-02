@@ -8,6 +8,18 @@
  */
 
 function solution() {
+    
+    const Person = {
+        Person.prototype.say = function() {
+            console.log("안녕");
+    };
+    function Student() {
+            Student.prototype = new Person();
+    };
+    Student.prototype.say = function() {
+            console.log("I'm a Student!");
+    };
+    }
 }
 
 solution();

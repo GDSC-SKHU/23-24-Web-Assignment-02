@@ -19,8 +19,14 @@ class Person {
         console.log('나이는 ' + this.age + ' 입니다.');
     }
 }
-
+class YourNameClass extends Person {
+    constructor() {
+        super("YourName", 30);
+    }
+}
 function solution() {
+    const yourObject = new YourNameClass();
+    yourObject.say();
 }
 
 solution();

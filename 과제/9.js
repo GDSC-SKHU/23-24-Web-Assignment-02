@@ -7,6 +7,10 @@
  */
 
 function solution() {
+    var a = ["Apple", "Lime", "Raisin", "Mango", "Banana", "Peach", "Blue Berry"];
+    var removedElements = a.splice(2,2);
+    console.log("제거된 요소:", removedElements);
+    console.log("배열:",a);
 }
 
 solution();

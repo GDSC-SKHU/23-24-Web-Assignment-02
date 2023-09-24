@@ -11,9 +11,14 @@ class Person {
     }
 }
 
-
 function solution() {
-
+    Person.prototype.say = function() {
+        console.log("안녕");
+      };
+      
+      var person = new Person();
+      
+      person.say();
 }
 
 solution();
