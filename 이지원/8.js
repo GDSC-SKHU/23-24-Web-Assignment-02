@@ -11,13 +11,15 @@
  */
 
 function solution() {
-    const a = ["Apple", "Lime", "Raisin", "Mango", "Banana", "Peach", "Blue Berry"];
+    let a = ['Apple', 'Lime', 'Raisin', 'Mango', 'Banana', 'Peach', 'Blue Berry']; //a 배열에 과일 이름 저장
 
-    a.push("Orange", "Kiwi");    
-    a.splice(3, 1, "Tomato");
+    a.push('Orange', 'Kiwi'); // Orange와 Kiwi를 배열 끝에 추가
 
-    console.log(a);
-    console.log("길이:", a.length);
+    a[3] = 'Tomato'; // Mango 위치의 값을 Tomato로 변경
+
+    console.log(a); // 배열 출력
+
+    console.log('Array Length: ', a.length); // 배열의 길이 출력
 }
 
 solution();

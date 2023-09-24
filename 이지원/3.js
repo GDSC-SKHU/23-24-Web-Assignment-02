@@ -8,8 +8,9 @@
  */
 
 class Person {
-    constructor(){
-        console.log("안녕");
+
+    hello() {
+        console.log('안녕');
     }
 
     say() {
@@ -17,15 +18,14 @@ class Person {
     }
 }
 
-class Student extends Person {
+class Student extends Person{ // Person이라는 부모 클래스를 Student 클래스에 상속.
     say(){
-        console.log("I'm Student!");
+        console.log("I'm Student!") //메서드 오버라이딩: 부모 클래스의 메서드를 자식 클래스에서 재정의하여 사용하는 것
     }
 }
 
 function solution() {
-    let student = new Student();
+    const student = new Student();
     student.say();
 }
-
 solution();
