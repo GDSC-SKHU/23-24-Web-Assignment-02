@@ -10,15 +10,7 @@
  * 
  */
 
-
 function solution() {
-  const a = ["Apple", "Lime", "Raisin", "Mango", "Banana", "Peach", "Blue Berry"];
-
-  a.push("Orange", "Kiwi");
-
-  a[3] = "Tomato";
-  console.log(a);
-  console.log(a.length);
 }
 
 solution();
