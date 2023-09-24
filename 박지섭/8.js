@@ -13,7 +13,7 @@
 function solution() {
     let a = ["Apple", "Lime", "Raisin", "Mango", "Banana", "Peach", "Blue Berry"]
     a.push("Orange","Kiwi");
-    a.splice(3, 1, "Tomato");
+    a.splice(a.indexOf("Mango"), 1, "Tomato");
     console.log(a);
     console.log(a.length);
 }
