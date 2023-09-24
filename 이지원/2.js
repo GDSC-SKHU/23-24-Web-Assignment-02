@@ -5,8 +5,12 @@
  * 
  */
 
-class Person { //사람 클래스 생성
-    constructor() {console.log('안녕');} //생성자
+class Person {
+
+    hello() {   //메서드 생성
+        console.log('안녕'); 
+    }
+
     say() {
         console.log('say!');
     }
@@ -14,8 +18,10 @@ class Person { //사람 클래스 생성
 
 
 function solution() {
-    const person = new Person(); //사람 객체 생성
-    person.say(); //사람 객체의 say 함수 호출
+    const person = new Person(); // Person 클래스의 인스턴스를 생성
+    person.hello();
+    person.say();
 }
+
 
 solution();

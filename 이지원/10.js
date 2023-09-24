@@ -19,15 +19,17 @@ class Person {
         console.log('나이는 ' + this.age + ' 입니다.');
     }
 }
-class ParkJiSeop extends Person {
-    constructor(){
-        super("박지섭", 25);
+
+class JiWon extends Person { // 부모에게 상속받음.
+    constructor() {
+        super('이지원', 24); // super : 이름과 나이를 전달
     }
 }
 
 function solution() {
-    let parkjiseop = new ParkJiSeop();
-    parkjiseop.say();
+    const nameAge = new JiWon(); // JiWon 클래스(객체) 생성
+    nameAge.say(); // say 함수 호출
+    
 }
 
 solution();
