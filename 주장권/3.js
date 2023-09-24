@@ -26,6 +26,8 @@ class Student extends Person {
 function solution() {
 
     const student = new Student();
+    student.say();
+
 }
 
 solution();

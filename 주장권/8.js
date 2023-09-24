@@ -13,7 +13,7 @@
 function solution() {
     const a = ["Apple", "Lime", "Raisin", "Mango", "Banana", "Peach", "Blue Berry"];
     a.push("Orange", "Kiwi");
-    a["Mango"] = "Tomato";
+    a[3] = "Tomato";
     console.log(a, a.length);
 }
 

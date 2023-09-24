@@ -7,16 +7,17 @@
 
 class Person {
     constructor() {
-        this.say();
+        console.log('안녕');
     }
     say() {
-        console.log('say!');
+        console.log('안녕');
     }
 }
 
 
 function solution() {
     const p = new Person;
+    p.say(); 
 }
 
 solution();
